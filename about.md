@@ -1,11 +1,49 @@
 ---
 layout: page
 title: About
+page-title: And my name is...
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+First of all, welcome at my personal blog.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+-------------------------
+More me on the web:
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<ul>
+  {% if site.twitter_username %}
+  <li>
+    <a href="https://twitter.com/{{ site.twitter_username }}">
+      <i class="fa fa-twitter"></i>
+      <span class="username"> twitter</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.github_username %}
+  <li>
+    <a href="https://github.com/{{ site.github_username }}">
+      <i class="fa fa-github"></i>
+      <span class="username"> github</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.linkedin_username %}
+  <li>
+    <a href="https://nl.linkedin.com/in/{{ site.linkedin_username }}">
+      <i class="fa fa-linkedin"></i>
+      <span class="username"> linkedin</span>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.untapped_username %}
+  <li>
+    <a href="https://untapped.com/user/{{ site.untapped_username }}">
+      <i class="fa fa-beer"></i>
+      <span class="username"> untapped</span>
+    </a>
+  </li>
+  {% endif %}
+</ul>

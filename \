@@ -2,12 +2,13 @@
 title: More than Smalltalk
 #email: mail@ronalddehaan.nl
 description: > # this means to ignore newlines until "baseurl:"
-    Coding and theme by Ronald de Haan.
+    Coding and theme by Ronald de Haan. Hosted on [github] and powered by [Jekyll]
+[github]: https:github.com
+[Jekyll]: yekyllrb.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ronalddehaan.nl" # the base hostname & protocol for your site
-twitter_username:  tactic78
-github_username:   tactic
-linkedin_username: ronalddehaan78
+twitter_username: tactic78
+github_username:  tactic
 
 # Build settings
 markdown: kramdown
