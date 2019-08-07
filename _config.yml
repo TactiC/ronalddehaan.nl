@@ -11,4 +11,4 @@ linkedin_username: ronalddehaan78
 
 # Build settings
 markdown: kramdown
-
+theme: jekyll-theme-minimal
