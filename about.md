@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-First of all, welcome at my personal blog.
+This is my personal blog. 
 
 -------------------------
 More me on the web:
