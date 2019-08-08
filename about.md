@@ -39,9 +39,9 @@ More me on the web:
 
   {% if site.untapped_username %}
   <li>
-    <a href="https://untapped.com/user/{{ site.untapped_username }}">
+    <a href="https://untappd.com/user/{{ site.untappd_username }}">
       <i class="fa fa-beer"></i>
-      <span class="username"> untapped</span>
+      <span class="username"> untappd</span>
     </a>
   </li>
   {% endif %}
